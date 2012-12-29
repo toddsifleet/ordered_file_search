@@ -11,6 +11,20 @@ A suitable file would look like:
                 
 The searcher is much quicker if you can guarantee unique keys, however without unique keys the searcher outpaces a standard scan search.
 
+<<<<<<< HEAD
+=======
+Usage
+-------
+
+    import file_search
+    searcher = file_search.Search(path, key_type = int, unique = False)
+
+    for i in search.find(12):
+        print i
+
+    #see test.py for more usage examples
+    
+>>>>>>> Fix Test / Update Readme
 Methods you may want to overwrite:
 -------
 

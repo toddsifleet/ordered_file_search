@@ -88,7 +88,7 @@ if __name__ == '__main__':
 
     file_search_test_non_unique = 'file_search_test_non_unique.txt'
     if not os.path.exists(file_search_test_non_unique):
-        create_test_file(file_search_test_non_unique, 100, True)
+        create_test_file(file_search_test_non_unique, 100, False)
     
     print "\nTesting With Duplicates"
     non_unique_test(file_search_test_non_unique)
